@@ -43,6 +43,5 @@ function creation_destinations()
     $contenu .= '<div class="contenu__restapi"></div>';
     return $contenu;
 }
-// faire en sorte que avec un shortcode? on puisse afficher 3 catégories de destinations
 
 add_shortcode('ej_destination', 'creation_destinations');
