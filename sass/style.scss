@@ -6,4 +6,13 @@
 .restapi__carte{
   flex: 1 0 250px;
   flex-direction: column;
+  .destinations-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+  }
 }

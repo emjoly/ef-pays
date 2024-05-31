@@ -40,6 +40,8 @@ function creation_destinations()
         $contenu .= '<button class="bouton_categorie" data-keyword="' . $keyword . '">' . $keyword . '</button>';
     }
 
+
+
     $contenu .= '<div class="contenu__restapi"></div>';
     return $contenu;
 }
